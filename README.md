@@ -78,3 +78,24 @@ Below is the final data model diagram after creating the relationships:
 
 > [!NOTE]
 > Above data model follows the [**_Star Schema_**](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema) design for Power BI.
+
+## DAX Measures
+I have created various DAX measures to aid in visualizing KPIs metrics. Some of the are to calculate ```Total Revenue```, ```Total Profit```, ```Total Orders```, ```Total Customers```, ```Repeat Customer Rate```, ```Return Rate```, with measures to calculate the previous month values as well (for goal comparisons).
+
+## Report
+I have designed the report into 4 pages. Below is the detailed view of each page and design idea behind it.
+
+### Executive Dashboard
+
+![Executive Dashboard](/assets/images/executive_dashboard.png)
+
+#### Design
+
+- This is the main landing page of the report
+- The top four cards show the **_<ins>total<ins>_** Revenue, Profit, Orders & Return Rate %
+- Line chart shows the revenue trending over time with a trend line
+- Bar chart to the right shows the total orders by product over different categories
+- Table shows top 10 products ordered by revenue. Additionally, number of orders and return % is also present
+- KPI cards on bottom left display the current month revenue, orders and returns with comparison from previous month values with percent difference. <span style="color:cyan">Cyan</span> color indicates that the current value met or exceeded the target goal. <span style="color:indianred">Red</span> color indicates that the current month value did not met the target goal.
+- Bottom right two cards display the overall most ordered and most returned product type respectively 
+
