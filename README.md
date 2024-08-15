@@ -50,4 +50,31 @@ Example, to aid in creating time intelligence measures, adding new columns in `C
 We had 3 files containing sales data from 2020, 2021 and 2022. Here, I kept all the sales data file in a separate folder, and then chose the option `Get Data` -> ` Folder` in Power BI `Home` tab. This will combine all the files in the folder. Here I have combined all the data into a single table `Sales Data`.
 
 > [!Tip]
+>
 > Using `Folder` option to combine the file will also result in Power BI automatically picking up new files as and when they are added to the folder.
+
+### Table View
+- **Hierarchies**<br>
+Creating hierarchies is way to organize data and help in drilling down from parent levels to lower levels in a specific order. For e.g., by creating a date hierarchy in the `Calendar Lookup` table using the columns (in following order), `Start of Year`, `Start of Month` & `Start of Week`, we can drill down or up in a visualization showing data at year, month or week level.
+
+## Data Model
+For the purpose of data modelling, I have classified the tables into two types:
+
+- Dimension Tables
+    - Calendar Lookup
+    - Customer Lookup
+    - Product Lookup
+    - Product Categories Lookup
+    - Product Subcategories Lookup
+    - Territory Lookup
+
+- Fact Tables
+    - Return Data
+    - Sales Data
+
+Below is the final data model diagram after creating the relationships:
+
+![Data Model](/assets/images/data_model.png)
+
+> [!NOTE]
+> Above data model follows the [**_Star Schema_**](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema) design for Power BI.
