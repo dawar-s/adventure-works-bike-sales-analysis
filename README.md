@@ -48,6 +48,6 @@ Example, to aid in creating time intelligence measures, adding new columns in `C
 
 - **Combining Multiple Files**<br>
 We had 3 files containing sales data from 2020, 2021 and 2022. Here, I kept all the sales data file in a separate folder, and then chose the option `Get Data` -> ` Folder` in Power BI `Home` tab. This will combine all the files in the folder. Here I have combined all the data into a single table `Sales Data`.
-    > [!TIP]
-    > 
-    > Using `Folder` option to combine the file will also result in Power BI automatically picking up new files as and when they are added to the folder.
+
+> [!Tip]
+> Using `Folder` option to combine the file will also result in Power BI automatically picking up new files as and when they are added to the folder.
