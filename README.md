@@ -91,11 +91,19 @@ I have designed the report into 4 pages. Below is the detailed view of each page
 
 #### Design
 
-- This is the main landing page of the report
-- The top four cards show the **_<ins>total<ins>_** Revenue, Profit, Orders & Return Rate %
-- Line chart shows the revenue trending over time with a trend line
-- Bar chart to the right shows the total orders by product over different categories
-- Table shows top 10 products ordered by revenue. Additionally, number of orders and return % is also present
-- KPI cards on bottom left display the current month revenue, orders and returns with comparison from previous month values with percent difference. <span style="color:cyan">Cyan</span> color indicates that the current value met or exceeded the target goal. <span style="color:indianred">Red</span> color indicates that the current month value did not met the target goal.
-- Bottom right two cards display the overall most ordered and most returned product type respectively 
+- This is the main landing page of the report.
+- The top four cards show the **_<ins>total<ins>_** Revenue, Profit, Orders & Return Rate %.
+- Line chart shows the revenue trending over time with a trend line.
+- Bar chart to the right shows the total orders by product over different categories.
+- Table shows top 10 products ordered by revenue. Additionally, number of orders and return % is also displayed.
+- KPI cards on bottom left display the current month revenue, orders and returns with comparison from previous month values with percent difference. $\textcolor{cyan}{\text{Cyan}}$ color indicates that the current value trend is on positive side compared to previous month . $\textcolor{indianred}{\text{Red}}$  color indicates that the current month value trend is negative compared to previous month.
+- Bottom right two cards display the overall most ordered and most returned product type respectively.
 
+#### Key takeaways
+
+- **_Revenue trend_** is overall showing a healthy uptrend, although there were few instances where the revenue dropped significantly from previous month e.g., in Jul 2020 & Jan 2022.
+- **_Accessories_** is the most popular category of product overall.
+- **_Fender Set - Mountain_** has garnered the most revenue amongst all products.
+- Among top revenue products, **_Sport Helmet_** is showing return rate which is 50% more than average return rate, this warrants a quality review.
+- **_Current month revenue_** is $1.83 Million which is 3.3% higher than previous month, **_monthly orders_** are slightly down by 0.8% compared to previous month. **_Monthly returns_** have marginally improved by 1.78%.
+- **_Tires and Tubes_** is the most ordered product and **_Shorts_** is the most returned product.
