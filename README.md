@@ -83,27 +83,22 @@ Below is the final data model diagram after creating the relationships:
 I have created various DAX measures to aid in visualizing KPIs metrics. Some of the are to calculate ```Total Revenue```, ```Total Profit```, ```Total Orders```, ```Total Customers```, ```Repeat Customer Rate```, ```Return Rate```, with measures to calculate the previous month values as well (for goal comparisons).
 
 ## Report
-I have designed the report into 4 pages. Below is the detailed view of each page and design idea behind it.
+I have designed the report into 4 pages. Below are the key takeaways.
 
 ### Executive Dashboard
 
 ![Executive Dashboard](/assets/images/executive_dashboard.png)
 
-#### Design
-
-- This is the main landing page of the report.
-- The top four cards show the **_<ins>total<ins>_** Revenue, Profit, Orders & Return Rate %.
-- Line chart shows the revenue trending over time with a trend line.
-- Bar chart to the right shows the total orders by product over different categories.
-- Table shows top 10 products ordered by revenue. Additionally, number of orders and return % is also displayed.
-- KPI cards on bottom left display the current month revenue, orders and returns with comparison from previous month values with percent difference. $\textcolor{cyan}{\text{Cyan}}$ color indicates that the current value trend is on positive side compared to previous month . $\textcolor{indianred}{\text{Red}}$  color indicates that the current month value trend is negative compared to previous month.
-- Bottom right two cards display the overall most ordered and most returned product type respectively.
-
 #### Key takeaways
 
-- **_Revenue trend_** is overall showing a healthy uptrend, although there were few instances where the revenue dropped significantly from previous month e.g., in Jul 2020 & Jan 2022.
-- **_Accessories_** is the most popular category of product overall.
-- **_Fender Set - Mountain_** has garnered the most revenue amongst all products.
-- Among top revenue products, **_Sport Helmet_** is showing return rate which is 50% more than average return rate, this warrants a quality review.
-- **_Current month revenue_** is $1.83 Million which is 3.3% higher than previous month, **_monthly orders_** are slightly down by 0.8% compared to previous month. **_Monthly returns_** have marginally improved by 1.78%.
-- **_Tires and Tubes_** is the most ordered product and **_Shorts_** is the most returned product.
+- ${\textsf{\color{cyan}Revenue}}$ is overall showing a ${\textsf{\color{cyan}healthy uptrend}}$, although there were few instances where the revenue dropped significantly from previous month e.g., in Jul 2020 & Jan 2022.
+
+- Overall, ${\textsf{\color{cyan}Accessories}}$ is the ${\textsf{\color{cyan}most ordered category}}$ of product selling approx. ${\textsf{\color{cyan}17k}}$ items.
+
+- ${\textsf{\color{cyan}Fender Set - Mountain}}$ is the ${\textsf{\color{cyan}highest revenue}}$ generating product.
+
+- Among top revenue products, ${\textsf{\color{indianred}Sport Helmet}}$ is showing ${\textsf{\color{indianred}high return rate}}$ which is 50% more than average return rate, this warrants a ${\textsf{\color{indianred}quality review}}$.
+
+- ${\textsf{\color{cyan}Current month revenue}}$ is 1.83 Million which is ${\textsf{\color{cyan} 3.3 percent more}}$ than previous month, ${\textsf{\color{indianred}monthly orders}}$ are slightly ${\textsf{\color{indianred}down by 0.8 percent}}$ compared to previous month. ${\textsf{\color{cyan}Monthly returns}}$ have marginally ${\textsf{\color{cyan}improved by 1.78 percent}}$ over previous month.
+
+- ${\textsf{\color{cyan}Tires and Tubes}}$ is the ${\textsf{\color{cyan}most ordered}}$ product and ${\textsf{\color{indianred}Shorts}}$ is the ${\textsf{\color{indianred}most returned}}$ product.
