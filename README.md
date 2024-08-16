@@ -85,7 +85,9 @@ I have created various DAX measures to aid in visualizing KPIs metrics. Some of 
 ## Report
 I have designed the report into 4 pages. Below are the key takeaways.
 
-### Executive Dashboard
+### **Executive Dashboard Page**
+
+This is the main landing page for the report and displays a high level overview of common KPIs.
 
 ![Executive Dashboard](/assets/images/executive_dashboard.png)
 
@@ -99,6 +101,20 @@ I have designed the report into 4 pages. Below are the key takeaways.
 
 - Among top revenue products, ${\textsf{\color{indianred}Sport Helmet}}$ is showing ${\textsf{\color{indianred}high return rate}}$ which is 50% more than average return rate, this warrants a ${\textsf{\color{indianred}quality review}}$.
 
-- ${\textsf{\color{cyan}Current month revenue}}$ is 1.83 Million which is ${\textsf{\color{cyan} 3.3 percent more}}$ than previous month, ${\textsf{\color{indianred}monthly orders}}$ are slightly ${\textsf{\color{indianred}down by 0.8 percent}}$ compared to previous month. ${\textsf{\color{cyan}Monthly returns}}$ have marginally ${\textsf{\color{cyan}improved by 1.78 percent}}$ over previous month.
+- ${\textsf{\color{cyan}Current month revenue}}$ is 1.83 Million which is ${\textsf{\color{cyan}3.3 percent more}}$ than previous month, ${\textsf{\color{indianred}monthly orders}}$ are slightly ${\textsf{\color{indianred}down by 0.8 percent}}$ compared to previous month. ${\textsf{\color{cyan}Monthly returns}}$ have marginally ${\textsf{\color{cyan}improved by 1.78 percent}}$ over previous month.
 
 - ${\textsf{\color{cyan}Tires and Tubes}}$ is the ${\textsf{\color{cyan}most ordered}}$ product and ${\textsf{\color{indianred}Shorts}}$ is the ${\textsf{\color{indianred}most returned}}$ product.
+
+### **Order Map Page**
+
+This page uses [Microsoft Azure maps](https://learn.microsoft.com/en-us/azure/azure-maps/power-bi-visual-get-started) to display location of the orders.
+
+![Order Map](/assets/images/order_map.png)
+
+#### Key takeaways
+
+- The bubble size is in proportion to the number of orders.
+- Thus with a quick glance we can observe:
+    - **United States** has **highest** number of orders
+    - **Germany** has the **lowest** number of orders
+- User can also hover on the bubble to reveal the number of orders.
