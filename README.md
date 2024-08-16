@@ -105,16 +105,18 @@ This is the main landing page for the report and displays a high level overview 
 
 - ${\textsf{\color{cyan}Tires and Tubes}}$ is the ${\textsf{\color{cyan}most ordered}}$ product and ${\textsf{\color{indianred}Shorts}}$ is the ${\textsf{\color{indianred}most returned}}$ product.
 
+<br>
+
 ### **Order Map Page**
 
-This page uses [Microsoft Azure maps](https://learn.microsoft.com/en-us/azure/azure-maps/power-bi-visual-get-started) to display location of the orders.
+This page uses [Microsoft Azure maps](https://learn.microsoft.com/en-us/azure/azure-maps/power-bi-visual-get-started) to display location of the orders. User has the option to view data for all regions or filter regions via buttons at the top.
+
+Here, the bubble size is proportional to the number of orders. User can also hover on the bubble to reveal the number of orders.
 
 ![Order Map](/assets/images/order_map.png)
 
 #### Key takeaways
 
-- The bubble size is in proportion to the number of orders.
-- Thus with a quick glance we can observe:
+- With a quick glance we can observe:
     - **United States** has **highest** number of orders
-    - **Germany** has the **lowest** number of orders
-- User can also hover on the bubble to reveal the number of orders.
+    - **Germany** has the **lowest** number of orders 
