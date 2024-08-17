@@ -119,4 +119,26 @@ Here, the bubble size is proportional to the number of orders. User can also hov
 
 - With a quick glance we can observe:
     - **United States** has **highest** number of orders
-    - **Germany** has the **lowest** number of orders 
+    - **Germany** has the **lowest** number of orders
+
+<br>
+
+### **Product Detail Map**
+
+This page highlights important KPI metrics related to product. Report users can right click -> **drill through** -> **Product Detail** from the top revenue products on **Executive Dashboard** page and land on the product detail page.
+
+This page has a page level filter applied (of the selected product) to show the KPIs.
+
+![Executive dashboard drill through](/assets/images/executive_dashboard_drill_through.png)
+
+![Product Detail](/assets/images/product_detail.png)
+
+#### Key takeaways
+
+- Since the page will show different values depending upon the product selected, there are no specific takeaways.
+- However, I would like to highlight few things about the design
+    - **Gauge cards** at top have current month target value set as **10% more** than the last month order, revenue & profit values for the filtered product.
+    - Report users can select important KPI metrics for the **area chart** using the radio button selector and quickly glance the trends.
+
+<br>
+
