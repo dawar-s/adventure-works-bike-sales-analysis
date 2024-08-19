@@ -28,14 +28,14 @@ There are 10 files in csv format. Below are the schemas of each file:<br>
 
     |File|Column|Comment|
     |:-|:-|:-|
-    |AdventureWorks Sales Data 2020.csv<br>AdventureWorks Sales Data 2021.csv<br>AdventureWorks Sales Data 2022.csv|OrderDate<br>Stock Date<br>OrderNumber<br>ProductKey<br>CustomerKey<br>TerritoryKey<br>OrderLineItem<br>OrderQuantity|Sales data for 2020, 2021, 2022
-    |AdventureWorks Returns Data.csv|ReturnDate<br>TerritoryKey<br>ProductKey<br>ReturnQuantity|Product return data
-    |AdventureWorks Product Lookup.csv|ProductKey<br>ProductSubcategoryKey<br>ProductSKU<br>ProductName<br>ModelName<br>ProductDescription<br>ProductColor<br>ProductSize<br>ProductStyle<br>ProductCost<br>ProductPrice|Individual product meta data
-    |AdventureWorks Product Categories Lookup.csv|ProductCategoryKey<br>CategoryName|Product category meta data
-    |AdventureWorks Product Subcategories Lookup.csv|ProductSubcategoryKey<br>SubcategoryName<br>ProductCategoryKey|Product subcategory meta data
-    |AdventureWorks Territory Lookup.csv|SalesTerritoryKey<br>Region<br>Country<br>Continent|Region meta data
-    |AdventureWorks Customer Lookup.csv|CustomerKey<br>Prefix<br>FirstName<br>LastName<br>BirthDate<br>MaritalStatus<br>Gender<br>EmailAddress<br>AnnualIncome<br>TotalChildren<br>EducationLevel<br>Occupation<br>HomeOwner|Customer meta data
-    |AdventureWorks Calendar Lookup.csv|Date|Contains each date in *YYYY-MM-DD* format from Jan 2020 to Jun 2022
+    |[AdventureWorks Sales Data 2020.csv](/data/AdventureWorks%20Sales%20Data%202020.csv)<br>[AdventureWorks Sales Data 2021.csv](/data/AdventureWorks%20Sales%20Data%202021.csv)<br>[AdventureWorks Sales Data 2022.csv](/data/AdventureWorks%20Sales%20Data%202022.csv)|OrderDate<br>Stock Date<br>OrderNumber<br>ProductKey<br>CustomerKey<br>TerritoryKey<br>OrderLineItem<br>OrderQuantity|Sales data for 2020, 2021, 2022
+    |[AdventureWorks Returns Data.csv](/data/AdventureWorks%20Returns%20Data.csv)|ReturnDate<br>TerritoryKey<br>ProductKey<br>ReturnQuantity|Product return data
+    |[AdventureWorks Product Lookup.csv](/data/AdventureWorks%20Product%20Lookup.csv)|ProductKey<br>ProductSubcategoryKey<br>ProductSKU<br>ProductName<br>ModelName<br>ProductDescription<br>ProductColor<br>ProductSize<br>ProductStyle<br>ProductCost<br>ProductPrice|Individual product meta data
+    |[AdventureWorks Product Categories Lookup.csv](/data/AdventureWorks%20Product%20Categories%20Lookup.csv)|ProductCategoryKey<br>CategoryName|Product category meta data
+    |[AdventureWorks Product Subcategories Lookup.csv](/data/AdventureWorks%20Product%20Subcategories%20Lookup.csv)|ProductSubcategoryKey<br>SubcategoryName<br>ProductCategoryKey|Product subcategory meta data
+    |[AdventureWorks Territory Lookup.csv](/data/AdventureWorks%20Territory%20Lookup.csv)|SalesTerritoryKey<br>Region<br>Country<br>Continent|Region meta data
+    |[AdventureWorks Customer Lookup.csv](/data/AdventureWorks%20Customer%20Lookup.csv)|CustomerKey<br>Prefix<br>FirstName<br>LastName<br>BirthDate<br>MaritalStatus<br>Gender<br>EmailAddress<br>AnnualIncome<br>TotalChildren<br>EducationLevel<br>Occupation<br>HomeOwner|Customer meta data
+    |[AdventureWorks Calendar Lookup.csv](/data/AdventureWorks%20Calendar%20Lookup.csv)|Date|Contains each date in *YYYY-MM-DD* format from Jan 2020 to Jun 2022
     |||
 
 ## Data Transformation
