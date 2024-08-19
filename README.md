@@ -74,7 +74,7 @@ For the purpose of data modelling, I have classified the tables into two types:
 
 Below is the final data model diagram after creating the relationships:
 
-![Data Model](/assets/images/data_model.png)
+![Data Model](/assets/images/screenshots/data_model.png)
 
 > [!NOTE]
 > Above data model follows the [**_Star Schema_**](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema) design for Power BI.
@@ -89,7 +89,7 @@ I have designed the report into 4 pages. Below are the key takeaways.
 
 This is the main landing page for the report and displays a high level overview of common KPIs.
 
-![Executive Dashboard](/assets/images/executive_dashboard.png)
+![Executive Dashboard](/assets/images/screenshots/executive_dashboard.png)
 
 #### Key takeaways
 
@@ -118,7 +118,7 @@ This page uses [Microsoft Azure maps](https://learn.microsoft.com/en-us/azure/az
 
 Here, the bubble size is proportional to the number of orders. User can also hover on the bubble to reveal the number of orders.
 
-![Order Map](/assets/images/order_map.png)
+![Order Map](/assets/images/screenshots/order_map.png)
 
 #### Key takeaways
 
@@ -134,9 +134,9 @@ This page highlights important KPI metrics related to product. Report users can 
 
 This page has a page level filter applied (of the selected product) to show the KPIs.
 
-![Executive dashboard drill through](/assets/images/executive_dashboard_drill_through.png)
+![Executive dashboard drill through](/assets/images/screenshots/executive_dashboard_drill_through.png)
 
-![Product Detail](/assets/images/product_detail.png)
+![Product Detail](/assets/images/screenshots/product_detail.png)
 
 #### Key takeaways
 
@@ -157,7 +157,7 @@ This page displays important KPI metrics related to customers. There are two vie
 
 #### **Key takeaways - <ins>Strategic KPIs</ins>**
 
-![Customer Detail Strategic KPIs](/assets/images/customer_detail_strategic_kpis.png)
+![Customer Detail Strategic KPIs](/assets/images/screenshots/customer_detail_strategic_kpis.png)
 
 - ${\textsf{\color{cyan}Number of customers}}$ is on an ${\textsf{\color{cyan}uptrend trajectory}}$, with Q3 2021 being an exceptional quarter for adding lot of customers.
 
@@ -167,7 +167,7 @@ This page displays important KPI metrics related to customers. There are two vie
 
 #### **Key takeaways - <ins>Monthly KPIs</ins>**
 
-![Customer Detail Monthly KPIs](/assets/images/customer_detail_monthly_kpis.png)
+![Customer Detail Monthly KPIs](/assets/images/screenshots/customer_detail_monthly_kpis.png)
 
 - Number of ${\textsf{\color{indianred}monthly customers}}$ added marginally ${\textsf{\color{indianred}declined by 0.86 percent}}$ from the previous month.
 - Even though ${\textsf{\color{cyan}Revenue Per Customer}}$ has been declining overall, current month value saw a ${\textsf{\color{cyan}4.2 percent increase}}$ from previous month.
