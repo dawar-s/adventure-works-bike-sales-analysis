@@ -93,7 +93,7 @@ This is the main landing page for the report and displays a high level overview 
 
 #### Key takeaways
 
-- ${\textsf{\color{cyan}Revenue}}$ is overall showing a ${\textsf{\color{cyan}healthy uptrend}}$, although there were few instances where the revenue dropped significantly from previous month e.g., in Jul 2020 & Jan 2022.
+- ${\textsf{\color{cyan}Revenue}}$ is overall showing a ${\textsf{\color{cyan}healthy uptrend}}$, although there was an instance where the revenue dropped significantly from previous quarter e.g., in Q3 2020.
 
 - Overall, ${\textsf{\color{cyan}Accessories}}$ is the ${\textsf{\color{cyan}most ordered category}}$ of product selling approx. ${\textsf{\color{cyan}17k}}$ items.
 
@@ -104,6 +104,11 @@ This is the main landing page for the report and displays a high level overview 
 - ${\textsf{\color{cyan}Current month revenue}}$ is 1.83 Million which is ${\textsf{\color{cyan}3.3 percent more}}$ than previous month, ${\textsf{\color{indianred}monthly orders}}$ are slightly ${\textsf{\color{indianred}down by 0.8 percent}}$ compared to previous month. ${\textsf{\color{cyan}Monthly returns}}$ have marginally ${\textsf{\color{cyan}improved by 1.78 percent}}$ over previous month.
 
 - ${\textsf{\color{cyan}Tires and Tubes}}$ is the ${\textsf{\color{cyan}most ordered}}$ product and ${\textsf{\color{indianred}Shorts}}$ is the ${\textsf{\color{indianred}most returned}}$ product.
+
+<br>
+
+> [!NOTE]
+> Switch to github dark mode, in case you observe ${\textsf{\color}} symbols in the key takeaways section.
 
 <br>
 
@@ -123,7 +128,7 @@ Here, the bubble size is proportional to the number of orders. User can also hov
 
 <br>
 
-### **Product Detail Map**
+### **Product Detail Page**
 
 This page highlights important KPI metrics related to product. Report users can right click -> **drill through** -> **Product Detail** from the top revenue products on **Executive Dashboard** page and land on the product detail page.
 
@@ -136,9 +141,34 @@ This page has a page level filter applied (of the selected product) to show the 
 #### Key takeaways
 
 - Since the page will show different values depending upon the product selected, there are no specific takeaways.
+
 - However, I would like to highlight few things about the design
     - **Gauge cards** at top have current month target value set as **10% more** than the last month order, revenue & profit values for the filtered product.
     - Report users can select important KPI metrics for the **area chart** using the radio button selector and quickly glance the trends.
 
 <br>
 
+### **Customer Detail Page**
+
+This page displays important KPI metrics related to customers. There are two views on this page <ins>**Strategic KPIs** and **Monthly KPIs**</ins>
+
+**Strategic** KPIs show combined (or overall) metrics for full period range.<br>
+**Monthly KPIs** show metrics for the current month (if present, or the latest month data present in the sales table)
+
+#### **Key takeaways - <ins>Strategic KPIs</ins>**
+
+![Customer Detail Strategic KPIs](/assets/images/customer_detail_strategic_kpis.png)
+
+- ${\textsf{\color{cyan}Number of customers}}$ is on an ${\textsf{\color{cyan}uptrend trajectory}}$, with Q3 2021 being an exceptional quarter for adding lot of customers.
+
+- However, ${\textsf{\color{indianred}Revenue Per Customer}}$ over the time is ${\textsf{\color{indianred}declining}}$, which is a cause of concern.
+
+- ${\textsf{\color{cyan}Repeat Customer Rate}}$ (also sometimes referred as Returning Customer Rate) is at a ${\textsf{\color{cyan}healthy 33.6 percent}}$. Although, this rate is industry and sector specific, a good rule of thumb says that rate between 20-40% is considered healthy.
+
+#### **Key takeaways - <ins>Monthly KPIs</ins>**
+
+![Customer Detail Monthly KPIs](/assets/images/customer_detail_monthly_kpis.png)
+
+- Number of ${\textsf{\color{indianred}monthly customers}}$ added marginally ${\textsf{\color{indianred}declined by 0.86 percent}}$ from the previous month.
+- Even though ${\textsf{\color{cyan}Revenue Per Customer}}$ has been declining overall, current month value saw a ${\textsf{\color{cyan}4.2 percent increase}}$ from previous month.
+- ${\textsf{\color{cyan}Repeat Customer Rate}}$ also saw a healthy ${\textsf{\color{cyan}3.5 percent increase}}$.
