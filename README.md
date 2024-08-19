@@ -1,5 +1,10 @@
 # Sales data analysis of Adventure Works Bike Shop
 
+## Demo
+
+https://github.com/user-attachments/assets/fdf539ee-a269-42e7-93a4-a5b88cf184bc
+
+
 ## Overview
 ### Situation
 You've just been hired as an Analyst by **_AdventureWorks_**, a global manufacturing company that produces cycling equipment and accessories.
